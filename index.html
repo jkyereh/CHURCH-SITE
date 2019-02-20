@@ -1,77 +1,87 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ICGC ROCK TEMPLE</title>
-	<link rel="stylesheet" type="text/css" href="church.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.1.0/darkly/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
+    <title>ICGC Rock Temple</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
 </head>
+
 <body>
-	 <nav class="navbar navbar-light navbar-expand-md">
-            <div class="container-fluid"><a class="navbar-brand" href="index.html">ROCK TEMPLE</a>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="index.html">ICGC ROCK TEMPLE</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only"></span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="media.html">Media</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-     </nav>
-    
-<h1 class="heading">ICGC ROCK TEMPLE</h1>
-
-
-<div class="article-list">
+        </nav>
+    </div>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/img_03.jpg" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/4.jpg" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/6.jpg" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/5.jpg" alt="Slide Image"></div>
+            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/3.jpg" alt="Slide Image"></div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+        <ol
+            class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+            <li data-target="#carousel-1" data-slide-to="4" class="active"></li>
+            </ol>
+    </div>
+    <div class="article-list">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Welcome</h2>
-                <p class="text-center">Welcome to ICGC Rock Temple.humble beginings,the dream is a "Full Stack Developer" and "Cyber Security Expert". But for now, we're starting small. </p>
+                <h2 class="text-center">ICGC ROCK TEMPLE</h2>
+                <p class="text-center">A Bible based Charismatic &nbsp;Church with &nbsp;the vision of Raising Leaders, Shaping Dreams and Influencing Society through Christ</p>
             </div>
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="about.html"><img src="assets/img/me.jpg" class="img-fluid" /></a>
-                    <h3 class="name">About Us</h3>
-                    <p class="description">I'm a Self-Taught Developer. Started coding in 2015 and took a long break. I'm back at it again in 2019, starting all afresh and aiming for the full stack.</p><a href="about.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-                <div
-                    class="col-sm-6 col-md-4 item"><a href="gallery.html"><img src="assets/img/building.jpg" class="img-fluid" /></a>
-                    <h3 class="name">Gallery</h3>
-                    <p class="description">Come inside, get to know me more. This is my life in pictures,ranging from personal life to social life. Have fun exploring and don't forget to come back for more.<br></p><a href="gallery.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="contact.html"><img class="img-fluid" src="assets/img/loft.jpg"></a>
-                <h3 class="name">Contact Us</h3>
-                <p class="description">Get in touch if you ever need a page or website for your business or personal needs. You can also conect with me if you need a friend or a coding partner.</p><a href="contact.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="sermon.html"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                    <h3 class="name">Sunday Sermon</h3>
+                    <p class="description">A text version of every Sunday's Message is available for you anytime to enhance your walk with GOD.</p><a href="sermon.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="media.html"><img class="img-fluid" src="assets/img/building.jpg"></a>
+                    <h3 class="name">Media</h3>
+                    <p class="description">A collection of Videos and Images about the Church. From programs to Church services and everything Church.</p><a href="media.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="contact.html"><img class="img-fluid" src="assets/img/loft.jpg"></a>
+                    <h3 class="name">Contact Us</h3>
+                    <p class="description">Leave us a note and we'll get back to you. You can also &nbsp;locate us and drop by at any time.Our doors are always open.</p><a href="contact.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+            </div>
+        </div>
     </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="media.html">Media</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <p class="copyright">RockTemple © 2019</p>
+        </footer>
     </div>
-    </div>
-    
-       
-
-
-<div class="footer-basic">
-<footer class="footer">
-<ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html">Home</a></li>
-                        <li class="list-inline-item"><a href="about.html">About</a></li>
-                        <li class="list-inline-item"><a href="gallery.html">Gallery</a></li>
-                        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
-                    </ul>
-­©ICGC ROCK TEMPLE 2019
-</footer>
-</div>
+    <article></article>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
+
 </html>
