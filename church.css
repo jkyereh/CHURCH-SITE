@@ -1,26 +1,6 @@
 body {
-	color: #333;
 	background-image: linear-gradient(to right top,#051937, #004d7a, #008793, #00bf72, #a8eb12);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-}
-.heading {
-	text-align: center;
-	margin: auto;
-	padding: auto;
-	text-decoration-color: none;
-}
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	color: teal;
-	text-align: center;
-}
-.container {
-	width: 90%;
-	align-content: center;
 }
