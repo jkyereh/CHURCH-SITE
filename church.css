@@ -4,3 +4,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 }
+.navbar {
+	display: grid;
+	box-sizing: border-box;
+	
+}

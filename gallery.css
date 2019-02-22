@@ -1,0 +1,20 @@
+body {
+	color: teal;
+	text-align: center;
+}
+.gallery {
+	margin: 10px 5px;
+}
+.gallery img{
+	width: 230px;
+	margin: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallery img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+@media screen and (max-width: 600px){
+   .gallery img{
+      width: 100%;
